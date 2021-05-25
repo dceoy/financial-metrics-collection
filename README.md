@@ -1,2 +1,4 @@
-# tafft
-Technical Analyses for Financial Trading
+vfft
+====
+
+Visualization for Financial Trading
