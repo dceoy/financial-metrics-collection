@@ -1,11 +1,11 @@
-baseURL = 'https://dceoy.github.io/vfft/'
+baseURL = '//dceoy.github.io/vfft/'
 languageCode = 'en-us'
 title = 'VFFT'
 theme = 'newsroom'
 author = 'Daichi Narushima, Ph.D.'
 copyright = 'Copyright (c) 2021 - Daichi Narushima, Ph.D.'
 canonifyurls = true
-paginate = 6
+# paginate = 6
 
 [markup]
   [markup.goldmark.renderer]
@@ -24,8 +24,8 @@ paginate = 6
 
 [params]
   locale = 'en_US'
-  # ga_analytics = '' # google analytics ID e.g UA-116386578-1
-  # ga_verify = '' # google verification code e.g 5jb-rxeBfITeJQKOuUss3ud6FPGTxXkCho-ZN5qlrZg
+  ga_analytics = 'G-4JHJMKZDF9'
+  ga_verify = '6huknrf0lRfWryP7ITpPDJyi1P1nSp3zq3TFqWj1k-Y'
   twitter = '@dceoy'
   # mainSections = ['blog', 'docs'] see https://gohugo.io/functions/where/#mainsections
   disableDarkMode = false
