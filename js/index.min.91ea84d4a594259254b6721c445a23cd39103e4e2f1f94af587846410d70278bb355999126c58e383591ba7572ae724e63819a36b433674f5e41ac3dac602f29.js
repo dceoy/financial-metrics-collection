@@ -1,6 +1,6 @@
 (function(){
   const doc = document.documentElement;
-  const parentURL = 'https://dceoy.github.io/';
+  const parentURL = '//dceoy.github.io/';
 
   function createEl(element='div') {
     return document.createElement(element);
