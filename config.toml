@@ -1,6 +1,6 @@
 baseURL = 'https://dceoy.github.io/vfft/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'VFFT'
 theme = 'newsroom'
 author = 'Daichi Narushima, Ph.D.'
 copyright = 'Copyright (c) 2021 - Daichi Narushima, Ph.D.'
@@ -10,7 +10,7 @@ paginate = 6
 [markup]
   [markup.goldmark.renderer]
     hardWraps = false
-    unsafe = false # change to true to enable inclusion of rawHTML and math functions
+    unsafe = false
     xhtml = false
   [markup.highlight]
     codeFences = true
@@ -22,10 +22,6 @@ paginate = 6
     noClasses = false
     tabWidth = 2
 
-# If you want to use disqus, uncomment the line below
-# disqusShortname = 'yourdiscussshortname'
-
-# ids used below are not valid. Replace with valid ones
 [params]
   locale = 'en_US'
   # ga_analytics = '' # google analytics ID e.g UA-116386578-1
